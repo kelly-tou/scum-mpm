@@ -5,7 +5,7 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "applications/sensor_adc/fixed_point.h"
+#include "fixed_point.h"
 
 // Validate that the given row and column are in bounds.
 static inline bool matrix_validate(const matrix_t* matrix, const size_t row,
