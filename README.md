@@ -53,7 +53,6 @@ The Matrix Pencil Method (MPM) is implemented on the Single-Chip Micro Mote (SC�
 
 ## Requirements
 
-SCμM Setup
 - SCμM v3c board
 - nRF52840 board (for flashing and serial comm)
 - UART connection configured to 19200 baud
