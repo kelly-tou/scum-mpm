@@ -10,7 +10,7 @@ The Matrix Pencil Method (MPM) is implemented on the Single-Chip Micro Mote (SC�
 
 ## Contents
 
-scum-mpm/
+<pre> scum-mpm/
 ├── Firmware/           # C firmware for SCμM
 │   ├── adc.c                      # SCμM ADC driver: configure ASC bits, trigger conversions via interrupt, and read or average samples
 │   ├── adc.h
@@ -49,7 +49,7 @@ scum-mpm/
 │   ├── comparison.py              # Figure 5
 │   ├── mean_std_plots.py          # Figure 4
 │   └── snr.py                     # Figure 3
-└── README.md           # This file
+└── README.md           # This file </pre>pre>
 
 ## Requirements
 
