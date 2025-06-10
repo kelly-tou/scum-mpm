@@ -62,4 +62,4 @@ The Matrix Pencil Method (MPM) is implemented on the Single-Chip Micro Mote (SC�
 
 **Boot SCμM:** https://crystalfree.atlassian.net/wiki/spaces/SCUM/pages/1901559821/Sulu+Programming+With+nRF+Setup
 
-**Compile firmware for SCμM:** https://crystalfree.atlassian.net/wiki/spaces/SCUM/pages/2378596375/Building+SCuM+Firmware 
+**Compile Firmware For SCμM:** https://crystalfree.atlassian.net/wiki/spaces/SCUM/pages/2378596375/Building+SCuM+Firmware 
