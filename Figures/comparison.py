@@ -57,10 +57,6 @@ plt.plot(nominal_taus,
 plt.yscale("log")
 plt.xscale("log")
 plt.grid(color='gray', linestyle='--', linewidth=0.5)
-
-# handles, labels = plt.gca().get_legend_handles_labels()
-# order = [1, 0]
-# plt.legend([handles[i] for i in order], [labels[i] for i in order], markerfirst=True)
 plt.legend()
 
 plt.xlabel(r"Nominal Time Constant $\tau$ [s]", fontsize=17)
@@ -111,10 +107,6 @@ plt.plot(nominal_taus,
 plt.yscale("log")
 plt.xscale("log")
 plt.grid(color='gray', linestyle='--', linewidth=0.5)
-
-# handles, labels = plt.gca().get_legend_handles_labels()
-# order = [2, 1, 0]
-# plt.legend([handles[i] for i in order], [labels[i] for i in order], markerfirst=True)
 plt.legend()
 
 plt.xlabel(r"Nominal Time Constant $\tau$ [s]", fontsize=17)
