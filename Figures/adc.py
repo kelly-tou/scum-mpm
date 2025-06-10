@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 import scienceplots
 plt.style.use(['science','grid'])
-# plt.figure(figsize=(13, 3.5))
 plt.figure(figsize=(8, 2))
 
 samples = [
