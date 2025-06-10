@@ -49,7 +49,7 @@ The Matrix Pencil Method (MPM) is implemented on the Single-Chip Micro Mote (SC�
 │   ├── comparison.py              # Figure 5
 │   ├── mean_std_plots.py          # Figure 4
 │   └── snr.py                     # Figure 3
-└── README.md           # This file </pre>pre>
+└── README.md           # This file </pre>
 
 ## Requirements
 
