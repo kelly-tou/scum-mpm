@@ -31,7 +31,7 @@ crlb_std_errors = [2.9126063298385544e-05, 3.5439932798316423e-05, 4.69406784793
 
 plt.subplot(1, 2, 2)
 plt.plot(time_constants, pt_two_perc_tc, color='tab:red', label=r'0.2\% of $\tau$', linestyle='--')
-# plt.plot(time_constants, crlb_std_errors, color='tab:green', label='CRLB', linestyle='-.')
+plt.plot(time_constants, crlb_std_errors, color='tab:green', label='CRLB', linestyle='-.')
 plt.plot(time_constants, std_errors, color='tab:blue', label='Measured', marker='^')
 plt.yscale("log")
 plt.xscale("log")
