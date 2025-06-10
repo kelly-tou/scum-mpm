@@ -61,6 +61,6 @@ SCμM Setup
 
 ## Getting Started
 
-**Compile firmware for SCμM:** https://crystalfree.atlassian.net/wiki/spaces/SCUM/pages/2378596375/Building+SCuM+Firmware 
-
 **Boot SCμM:** https://crystalfree.atlassian.net/wiki/spaces/SCUM/pages/1901559821/Sulu+Programming+With+nRF+Setup
+
+**Compile firmware for SCμM:** https://crystalfree.atlassian.net/wiki/spaces/SCUM/pages/2378596375/Building+SCuM+Firmware 
