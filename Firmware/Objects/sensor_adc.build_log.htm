@@ -1,0 +1,108 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.25.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Kelly Tou, UC Berkeley, LIC=9WSKC-7NVU4-Z9VG9-4SYNB-SJ4CJ-QN661
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.25.2.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DARMCM1.DLL V1.19.1.0
+Target DLL:      UL2CM3.DLL V1.160.12.0
+Dialog DLL:      TARMCM1.DLL V1.14.0.0
+ 
+<h2>Project:</h2>
+C:\users\kellytou\Desktop\scum-mpm\Firmware\sensor_adc.uvprojx
+Project File Date:  06/11/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'sensor_adc'
+assembling cm0dsasm.s...
+compiling sensor_adc.c...
+compiling retarget.c...
+compiling optical.c...
+optical.c(99): warning:  #177-D: variable "dummy"  was declared but never referenced
+      uint32_t dummy = 0;
+optical.c(101): warning:  #177-D: variable "t"  was declared but never referenced
+      int32_t t;
+optical.c(110): warning:  #550-D: variable "IF_clk_target"  was set but never used
+      uint32_t IF_clk_target;
+optical.c: 3 warnings, 0 errors
+compiling adc.c...
+compiling radio.c...
+radio.c(234): warning:  #550-D: variable "radio_mode_string"  was set but never used
+      char* radio_mode_string;
+radio.c(235): warning:  #177-D: variable "repeat_mode_string"  was declared but never referenced
+      char* repeat_mode_string;
+radio.c(446): warning:  #513-D: a value of type "uint8_t *" cannot be assigned to an entity of type "char *"
+      RFCONTROLLER_REG__TX_DATA_ADDR = radio_vars.radio_tx_buffer;
+radio.c(497): warning:  #513-D: a value of type "uint8_t *" cannot be assigned to an entity of type "char *"
+      DMA_REG__RF_RX_ADDR = radio_vars.radio_rx_buffer;
+radio.c(516): warning:  #68-D: integer conversion resulted in a change of sign
+      *pRssi = read_RSSI() + RSSI_REFERENCE;
+radio.c(553): warning:  #177-D: variable "timing_correction"  was declared but never referenced
+      signed int timing_correction;
+radio.c: 6 warnings, 0 errors
+compiling gpio.c...
+compiling uart.c...
+compiling rftimer.c...
+compiling matrix.c...
+matrix.c(96): warning:  #223-D: function "printf" declared implicitly
+          printf("matrix multiply\n");
+matrix.c: 1 warning, 0 errors
+compiling scm3c_hw_interface.c...
+compiling svd_3.c...
+compiling sensor_resistive.c...
+sensor_resistive.c(100): warning:  #223-D: function "printf" declared implicitly
+      printf("Received sufficient samples. Estimating the time constant now.\n");
+sensor_resistive.c: 1 warning, 0 errors
+compiling matrix_pencil_method.c...
+matrix_pencil_method.c(45): warning:  #223-D: function "printf" declared implicitly
+          printf("Imaginary Eigenvalue\n");
+matrix_pencil_method.c(58): warning:  #223-D: function "printf" declared implicitly
+              printf("Two Negative Eigenvalues\n");
+matrix_pencil_method.c(260): warning:  #223-D: function "printf" declared implicitly
+      printf("number of samples collected: %u\n", length);
+matrix_pencil_method.c: 3 warnings, 0 errors
+compiling time_constant.c...
+time_constant.c(47): warning:  #177-D: variable "g_time_constant_max_adc_sample"  was declared but never referenced
+  static uint16_t g_time_constant_max_adc_sample = 0;
+time_constant.c: 1 warning, 0 errors
+compiling adc_msb.c...
+compiling sensor_capacitor.c...
+compiling sensor_gpio.c...
+linking...
+.\Objects\sensor_adc.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+Program Size: Code=22828 RO-data=396 RW-data=244 ZI-data=15164  
+Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin .\Objects\sensor_adc.axf -o .\Objects\sensor_adc.bin
+After Build - User command #2: fromelf -cvf .\Objects\sensor_adc.axf -o .\Objects\disasm.txt
+".\Objects\sensor_adc.axf" - 0 Error(s), 16 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.3.0.pack
+                ARM.CMSIS.5.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_sensor_adc
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\Device\ARM\ARMCM0\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:06
+</pre>
+</body>
+</html>

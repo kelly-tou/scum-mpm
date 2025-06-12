@@ -1,0 +1,9 @@
+.\objects\matrix_pencil_method.o: matrix_pencil_method.c
+.\objects\matrix_pencil_method.o: matrix_pencil_method.h
+.\objects\matrix_pencil_method.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdbool.h
+.\objects\matrix_pencil_method.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\objects\matrix_pencil_method.o: fixed_point.h
+.\objects\matrix_pencil_method.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdlib.h
+.\objects\matrix_pencil_method.o: matrix.h
+.\objects\matrix_pencil_method.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stddef.h
+.\objects\matrix_pencil_method.o: svd_3.h

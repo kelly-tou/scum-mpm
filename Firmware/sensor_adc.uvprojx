@@ -399,102 +399,102 @@
             <File>
               <FileName>cm0dsasm.s</FileName>
               <FileType>2</FileType>
-              <FilePath>..\..\cm0dsasm.s</FilePath>
+              <FilePath>.\cm0dsasm.s</FilePath>
             </File>
             <File>
               <FileName>Memory_Map.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\..\Memory_Map.h</FilePath>
+              <FilePath>.\Memory_Map.h</FilePath>
             </File>
             <File>
               <FileName>retarget.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\retarget.c</FilePath>
+              <FilePath>.\retarget.c</FilePath>
             </File>
             <File>
               <FileName>optical.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\optical.c</FilePath>
+              <FilePath>.\optical.c</FilePath>
             </File>
             <File>
               <FileName>optical.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\..\optical.h</FilePath>
+              <FilePath>.\optical.h</FilePath>
             </File>
             <File>
               <FileName>radio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\radio.c</FilePath>
+              <FilePath>.\radio.c</FilePath>
             </File>
             <File>
               <FileName>radio.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\..\radio.h</FilePath>
+              <FilePath>.\radio.h</FilePath>
             </File>
             <File>
               <FileName>adc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\adc.c</FilePath>
+              <FilePath>.\adc.c</FilePath>
             </File>
             <File>
               <FileName>adc.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\..\adc.h</FilePath>
+              <FilePath>.\adc.h</FilePath>
             </File>
             <File>
               <FileName>gpio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\gpio.c</FilePath>
+              <FilePath>.\gpio.c</FilePath>
             </File>
             <File>
               <FileName>gpio.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\..\gpio.h</FilePath>
+              <FilePath>.\gpio.h</FilePath>
             </File>
             <File>
               <FileName>uart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\uart.c</FilePath>
+              <FilePath>.\uart.c</FilePath>
             </File>
             <File>
               <FileName>uart.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\..\uart.h</FilePath>
+              <FilePath>.\uart.h</FilePath>
             </File>
             <File>
               <FileName>rftimer.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\rftimer.c</FilePath>
+              <FilePath>.\rftimer.c</FilePath>
             </File>
             <File>
               <FileName>rftimer.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\..\rftimer.h</FilePath>
+              <FilePath>.\rftimer.h</FilePath>
             </File>
             <File>
               <FileName>scum_defs.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\..\scum_defs.h</FilePath>
+              <FilePath>.\scum_defs.h</FilePath>
             </File>
             <File>
               <FileName>scm3c_hw_interface.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\..\scm3c_hw_interface.h</FilePath>
+              <FilePath>.\scm3c_hw_interface.h</FilePath>
             </File>
             <File>
               <FileName>scm3c_hw_interface.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\scm3c_hw_interface.c</FilePath>
+              <FilePath>.\scm3c_hw_interface.c</FilePath>
             </File>
             <File>
               <FileName>matrix.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\matrix.c</FilePath>
+              <FilePath>.\matrix.c</FilePath>
             </File>
             <File>
               <FileName>matrix.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\..\matrix.h</FilePath>
+              <FilePath>.\matrix.h</FilePath>
             </File>
             <File>
               <FileName>fixed_point.h</FileName>
@@ -520,16 +520,6 @@
               <FileName>matrix_pencil_method.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\matrix_pencil_method.h</FilePath>
-            </File>
-            <File>
-              <FileName>svd_3_v2.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\svd_3_v2.c</FilePath>
-            </File>
-            <File>
-              <FileName>svd_3_v2.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\svd_3_v2.h</FilePath>
             </File>
             <File>
               <FileName>sensor_resistive.c</FileName>

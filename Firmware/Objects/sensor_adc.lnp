@@ -1,0 +1,23 @@
+--cpu Cortex-M0
+".\objects\sensor_adc.o"
+".\objects\cm0dsasm.o"
+".\objects\retarget.o"
+".\objects\optical.o"
+".\objects\radio.o"
+".\objects\adc.o"
+".\objects\gpio.o"
+".\objects\uart.o"
+".\objects\rftimer.o"
+".\objects\scm3c_hw_interface.o"
+".\objects\matrix.o"
+".\objects\svd_3.o"
+".\objects\matrix_pencil_method.o"
+".\objects\sensor_resistive.o"
+".\objects\time_constant.o"
+".\objects\adc_msb.o"
+".\objects\sensor_capacitor.o"
+".\objects\sensor_gpio.o"
+--strict --scatter ".\Objects\sensor_adc.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\sensor_adc.map" -o .\Objects\sensor_adc.axf

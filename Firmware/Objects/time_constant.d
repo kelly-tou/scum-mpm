@@ -1,0 +1,12 @@
+.\objects\time_constant.o: time_constant.c
+.\objects\time_constant.o: time_constant.h
+.\objects\time_constant.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdbool.h
+.\objects\time_constant.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\objects\time_constant.o: fixed_point.h
+.\objects\time_constant.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdlib.h
+.\objects\time_constant.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+.\objects\time_constant.o: adc_msb.h
+.\objects\time_constant.o: matrix_pencil_method.h
+.\objects\time_constant.o: matrix.h
+.\objects\time_constant.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stddef.h
+.\objects\time_constant.o: svd_3.h

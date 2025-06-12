@@ -1,0 +1,14 @@
+.\objects\sensor_adc.o: sensor_adc.c
+.\objects\sensor_adc.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdbool.h
+.\objects\sensor_adc.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+.\objects\sensor_adc.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdlib.h
+.\objects\sensor_adc.o: adc.h
+.\objects\sensor_adc.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\objects\sensor_adc.o: gpio.h
+.\objects\sensor_adc.o: memory_map.h
+.\objects\sensor_adc.o: optical.h
+.\objects\sensor_adc.o: rftimer.h
+.\objects\sensor_adc.o: scm3c_hw_interface.h
+.\objects\sensor_adc.o: sensor_resistive.h
+.\objects\sensor_adc.o: fixed_point.h
+.\objects\sensor_adc.o: sensor_capacitor.h

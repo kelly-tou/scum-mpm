@@ -1,0 +1,13 @@
+.\objects\sensor_resistive.o: sensor_resistive.c
+.\objects\sensor_resistive.o: sensor_resistive.h
+.\objects\sensor_resistive.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\objects\sensor_resistive.o: fixed_point.h
+.\objects\sensor_resistive.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdlib.h
+.\objects\sensor_resistive.o: gpio.h
+.\objects\sensor_resistive.o: sensor_capacitor.h
+.\objects\sensor_resistive.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
+.\objects\sensor_resistive.o: adc.h
+.\objects\sensor_resistive.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdbool.h
+.\objects\sensor_resistive.o: rftimer.h
+.\objects\sensor_resistive.o: sensor_gpio.h
+.\objects\sensor_resistive.o: time_constant.h
