@@ -42,8 +42,14 @@ The Matrix Pencil Method (MPM) is implemented on the Single-Chip Micro Mote (SC�
 │   ├── sensor_resistive.h
 │   ├── svd_3.c                    # Fixed-point SVD (right singular vectors): store AᵀA, then compute V via gradient ascent with orthogonal projection and cross-product enforcement
 │   ├── svd_3.h
+│   ├── uart.c                     # UART driver: interrupt-driven TX/RX with software XON/XOFF flow control, callbacks, and character escaping
+│   ├── uart.h
 │   ├── time_constant.c            # Time-constant estimator: buffer disambiguated ADC samples until decay completes, then compute exponential decay constant via matrix pencil method
-│   └── time_constant.h
+│   ├── time_constant.h
+│   ├── cm0dsasm.s                 # SCuM startup and interrupt vectors: define stack/heap regions, vector table, Reset_Handler, and IRQ entry stubs (masking/unmasking) that branch to C ISR routines
+│   ├── retarget.c                 # Retarget C library I/O to UART: disable semihosting, stub FILE, and implement fgetc/fputc, uart_in/out, and _sys_exit for printf/scanf over memory‐mapped UART
+│   ├── sensor_adc.uvoptx          # For compiling in Keil
+│   └── sensor_adc.uvprojx         # For compiling in Keil
 ├── Figures/            # Python scripts for reproducing figures from the paper
 │   ├── adc.py                     # Figure 2
 │   ├── comparison.py              # Figure 5
