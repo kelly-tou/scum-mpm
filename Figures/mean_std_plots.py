@@ -10,8 +10,8 @@ mean_abs_errors = [0.000262747, 0.001034339, 0.001882469, 0.003390106, 0.0036820
 two_perc_tc = [0.02 * tc for tc in time_constants]
 
 plt.subplot(1, 2, 1)
-plt.plot(time_constants, two_perc_tc, color='tab:red', label=r'2\% of $\tau$', linestyle='--')
-plt.plot(time_constants, mean_abs_errors, color='tab:blue', label='Measured', marker='^')
+plt.plot(time_constants, two_perc_tc, color='tab:red', label=r'2\% of $\tau$', linestyle='--', linewidth=2)
+plt.plot(time_constants, mean_abs_errors, color='tab:blue', label='Measured', marker='^', linewidth=2)
 plt.yscale("log")
 plt.xscale("log")
 plt.grid(color='gray', linestyle='--', linewidth=0.5)
@@ -30,16 +30,15 @@ pt_two_perc_tc = [0.002 * tc for tc in time_constants]
 crlb_std_errors = [2.9126063298385544e-05, 3.5439932798316423e-05, 4.694067847936402e-05, 5.203215355267126e-05, 7.770866739274989e-05, 0.00011333705907871593, 0.000123771280438124, 0.00013616927945015738, 0.0001494330839933579, 0.00016635170975759766, 0.0002467486179169047, 0.0004349786755466315, 0.0005255079022829654]
 
 plt.subplot(1, 2, 2)
-plt.plot(time_constants, pt_two_perc_tc, color='tab:red', label=r'0.2\% of $\tau$', linestyle='--')
-plt.plot(time_constants, crlb_std_errors, color='tab:green', label='CRLB', linestyle='-.')
-plt.plot(time_constants, std_errors, color='tab:blue', label='Measured', marker='^')
+plt.plot(time_constants, pt_two_perc_tc, color='tab:red', label=r'0.2\% of $\tau$', linestyle='--', linewidth=2)
+plt.plot(time_constants, crlb_std_errors, color='tab:green', label='CRLB', linestyle='-.', linewidth=2)
+plt.plot(time_constants, std_errors, color='tab:blue', label='Measured', marker='^', linewidth=2)
 plt.yscale("log")
 plt.xscale("log")
 plt.grid(color='gray', linestyle='--', linewidth=0.5)
 
 handles, labels = plt.gca().get_legend_handles_labels()
-# order = [2, 1, 0]
-order = [1, 0]
+order = [2, 1, 0]
 plt.legend([handles[i] for i in order], [labels[i] for i in order], markerfirst=True)
 
 plt.xlabel(r"Nominal Time Constant $\tau$ [s]")
