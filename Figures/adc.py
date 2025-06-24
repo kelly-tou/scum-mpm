@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import scienceplots
 plt.style.use(['science','grid'])
-plt.figure(figsize=(8, 2))
+plt.figure(figsize=(8, 1.8))
 
 samples = [
     55, 47, 48, 52, 47, 55, 49, 47, 47, 54, 47, 55, 47, 55, 55, 55, 55, 53, 55, 59, 60, 55, 56, 59, 59, 60, 43, 58, 55, 59, 
@@ -135,7 +135,7 @@ expected = [0.3097 * i + 47.353 for i in range(len(samples))]
 residuals = [samples[i] - expected[i] for i in range(len(samples))]
 
 plt.subplot(1, 2, 1)
-plt.plot(range(len(samples)), expected, color='tab:red', label='Expected')
+plt.plot(range(len(samples)), expected, color='magenta', label='Expected', linewidth=2)
 plt.scatter(range(len(samples)), samples, marker='.')
 plt.grid(color='gray', linestyle='--', linewidth=0.5)
 plt.legend()
@@ -144,7 +144,6 @@ plt.ylabel("ADC Output [LSB]")
 plt.title("ADC Data")
 
 plt.subplot(1, 2, 2)
-plt.axhline(color='black', linewidth=0.5)
 plt.scatter(range(len(samples)), residuals, marker='.')
 plt.grid(color='gray', linestyle='--', linewidth=0.5)
 plt.xlabel("Time [s]")
