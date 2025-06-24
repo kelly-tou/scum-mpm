@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import scienceplots
 plt.style.use(['science','grid'])
 
-fig, ax = plt.subplots(layout='constrained')
+fig, ax = plt.subplots(figsize=(12, 5), layout='constrained')
 
 def mpm(data):
     L = 2
@@ -92,9 +92,9 @@ for noise_std_dev in range(1, 33):
         horiz_line_y = (np.std(time_constant_estimations) / tau)
         horiz_line_xmax = 20 * math.log(1023 / noise_std_dev, 10) / 87
 
-ax.axvline(x=vert_line_x, ymax=vert_line_ymax, color='tab:red', label=r"SC$\mu$M's ADC", linestyle='--')
-ax.axhline(y=horiz_line_y, xmax=horiz_line_xmax, color='tab:red', linestyle='--')
-ax.plot(snr, std_dev_perc, color='tab:blue', marker='^', zorder=0)
+ax.axvline(x=vert_line_x, ymax=vert_line_ymax, color='tab:red', label=r"SC$\mu$M's ADC", linestyle='--', linewidth=2)
+ax.axhline(y=horiz_line_y, xmax=horiz_line_xmax, color='tab:red', linestyle='--', linewidth=2)
+ax.plot(snr, std_dev_perc, color='tab:blue', marker='^', zorder=0, linewidth=2)
 ax.scatter(scum_snr, scum_std, color='tab:red', marker='s', zorder=10)
 ax.legend(loc='upper right')
 ax.set_xlabel("SNR [dB]")
